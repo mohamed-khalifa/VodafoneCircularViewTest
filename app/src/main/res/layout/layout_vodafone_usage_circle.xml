@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_margin_large">
+
+    <com.example.dina_el_hakim.vodafonecircularviewtest.AutoResizeTextView
+        android:id="@+id/textTop"
+        style="@style/VodafoneUsageCircleSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/usage_circle_margin_normal"
+        android:layout_marginRight="@dimen/usage_circle_margin_normal"
+        android:gravity="center_horizontal"
+        tools:text="UK Data" />
+
+    <com.example.dina_el_hakim.vodafonecircularviewtest.AutoResizeTextView
+        android:id="@+id/textTitle"
+        style="@style/VodafoneUsageCircleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/usage_circle_margin_normal"
+        android:layout_marginRight="@dimen/usage_circle_margin_normal"
+        android:singleLine="true"
+        tools:text="Unlimited"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <com.example.dina_el_hakim.vodafonecircularviewtest.AutoResizeTextView
+        android:id="@+id/textSubTitle"
+        style="@style/VodafoneUsageCircleSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/usage_circle_margin_normal"
+        android:layout_marginRight="@dimen/usage_circle_margin_normal"
+        android:gravity="center_horizontal"
+        tools:text="of 10GB left" />
+
+</LinearLayout>

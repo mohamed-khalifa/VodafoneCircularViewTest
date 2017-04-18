@@ -1,0 +1,21 @@
+<RelativeLayout android:id="@+id/main_bubble_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/data_min_txt_container_height"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000">
+
+    <include layout="@layout/layout_main_usage_container_view" />
+    <!-- This layout NEEDS to be last one cause VodafoneUsageCircle must layout before -->
+    <com.example.dina_el_hakim.vodafonecircularviewtest.VodafoneCircularView
+        android:id="@+id/data_min_txt_container"
+        style="@style/VodafoneUsageCircle.Compact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:fillAmount="1" />
+
+</RelativeLayout>

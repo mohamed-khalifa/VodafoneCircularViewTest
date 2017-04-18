@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Vodafone Usage Circle -->
+    <style name="VodafoneUsageCircle">
+        <item name="android:layout_width">110dp</item>
+        <item name="vuc_fillColor">@color/green_dark</item>
+        <item name="vuc_backgroundColor">@color/green_light</item>
+        <item name="vuc_strokeWidth">@dimen/usage_circle_stroke_normal</item>
+    </style>
+
+    <style name="VodafoneUsageCircle.Compact">
+        <item name="vuc_strokeWidth">@dimen/usage_circle_stroke_compact</item>
+        <item name="android:layout_width">@dimen/usage_circle_size</item>
+    </style>
+    <!-- Normal text size -->
+    <style name="VodafoneTextView" parent="@android:style/Widget.TextView">
+        <item name="customTypeface">vodafone_regular</item>
+        <item name="android:textColor">@color/grey_scale_8</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+    <!-- Extra small text size -->
+    <style name="VodafoneTextView.ExtraSmall">
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+    </style>
+
+    <style name="VodafoneUsageCircleSubtitle" parent="VodafoneTextView.ExtraSmall">
+        <item name="android:textSize">@dimen/usage_circle_sub_text_size</item>
+    </style>
+
+
+    <style name="VodafoneUsageCircleTitle" parent="VodafoneTextView.Bold">
+        <item name="android:textSize">@dimen/usage_circle_text_size</item>
+    </style>
+
+
+    <style name="VodafoneTextView.Bold">
+        <item name="customTypeface">vodafone_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

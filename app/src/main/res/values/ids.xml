@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN Group -->
+    <item name="data_container" type="id" />
+    <item name="minutes_container" type="id" />
+    <item name="text_container" type="id" />
+    <item name="voice_and_sms_container" type="id" />
+    <item name="data_group_container" type="id" />
+    <item name="mms_container" type="id" />
+
+    <!-- VOICE Group -->
+    <item name="voiceanytime_container" type="id" />
+    <item name="voiceint_container" type="id" />
+    <item name="voiceweekend_container" type="id" />
+    <item name="voicelandline_container" type="id" />
+    <item name="voicemobile_container" type="id" />
+
+    <!-- Additional Group -->
+    <item name="add_button_container" type="id" />
+    <item name="additional_button1_container" type="id" />
+    <item name="additional_button2_container" type="id" />
+</resources>
